@@ -2,10 +2,10 @@
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
-#include <glm.hpp>
 
 
 #include <tqnode/node.h>
+#include <tqnode/nodes/node3d/sprite3d.h>
 
 
 class Health : public NodeBehaviour
@@ -34,11 +34,18 @@ int main()
 
 
     Node player;
+    Sprite3D playerSprite;
+
+    playerSprite.filename = "/home/macs/Desktop/Projects/C/macsEngineTest/awesome.png";
+
+    playerSprite.start();
 
     while(!glfwWindowShouldClose(window))
     {
         glClear(GL_COLOR_BUFFER_BIT);
         glClearColor(0.1, 0.1, 0.3, 1.0);
+
+        playerSprite.update(0.1);
 
         glfwSwapBuffers(window);
         glfwPollEvents();

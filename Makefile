@@ -1,6 +1,6 @@
 CC = clang++
 
-INCLUDEFLAGS = -Ilib/glfw/include -Ilib/glew/include -Isrc/modules -Ilib/glm/glm
+INCLUDEFLAGS = -Ilib/glfw/include -Ilib/glew/include -Isrc/modules -Ilib/glm/glm -Ilib/stb
 LDFLAGS = -lm -lGL -lX11 -lpthread -ldl
 LIBS = lib/glew/lib/libGLEW.a lib/glfw/src/libglfw3.a
 BIN = bin/game.x86_64

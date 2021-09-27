@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <GL/glew.h>
+#define STB_IMAGE_IMPLEMENTATION
 #include <stb_image.h>
 
 #include "../node3d.h"
@@ -50,6 +51,9 @@ class Sprite3D : public Node3D
             glBindBuffer(GL_ARRAY_BUFFER, VBO);
             glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
 
+            glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_DYNAMIC_DRAW);
+            glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_DYNAMIC_DRAW);
+            glVertexAttribPointer(0, 3 * sizeof(float), GL_FLOAT, GL_FALSE, 3 * sizeof(float), NULL);
 
 
             imageData = stbi_load(filename.c_str(), &imageWidth, &imageHeight, &imageChannels, 0);

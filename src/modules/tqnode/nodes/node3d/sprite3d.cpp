@@ -2,6 +2,7 @@
 #include <string>
 #include "sprite3d.h"
 #include <GL/glew.h>
+#define STB_IMAGE_IMPLEMENTATION
 #include <stb_image.h>
 
 void Sprite3D::start()
