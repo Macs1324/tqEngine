@@ -1,4 +1,4 @@
-CC = clang++
+CC = g++
 
 INCLUDEFLAGS = -Ilib/glfw/include -Ilib/glew/include -Isrc/modules -Ilib/glm/glm -Ilib/stb
 LDFLAGS = -lm -lGL -lX11 -lpthread -ldl
