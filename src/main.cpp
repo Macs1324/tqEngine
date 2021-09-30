@@ -1,4 +1,5 @@
 #include <iostream>
+#include <filesystem>
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
@@ -36,7 +37,7 @@ int main()
     Node player;
     Sprite3D playerSprite;
 
-    playerSprite.filename = "/home/macs/Desktop/Projects/C/macsEngineTest/awesome.png";
+    playerSprite.filename = "/home/macs/Desktop/tqEngine/res/testSprite.png";
 
     playerSprite.start();
 

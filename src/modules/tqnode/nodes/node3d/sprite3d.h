@@ -57,7 +57,16 @@ class Sprite3D : public Node3D
 
 
             imageData = stbi_load(filename.c_str(), &imageWidth, &imageHeight, &imageChannels, 0);
-            glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, imageWidth, imageHeight, 0, GL_RGBA, GL_UNSIGNED_BYTE, imageData);
+            if(imageData)
+            {
+                glBindTexture(GL_TEXTURE_2D, textureID);
+                glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, imageWidth, imageHeight, 0, GL_RGBA, GL_UNSIGNED_BYTE, imageData);
+                glGenerateMipmap(GL_TEXTURE_2D);
+            }
+            else
+            {
+                std::cout << "Failed to load image data!" << std::endl;
+            }
         }
 
         void update(float delta)
