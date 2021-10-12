@@ -4,6 +4,7 @@
 /home/macs/Desktop/Projects/C++/tqEngine/build/CMakeFiles/list_install_components.dir
 /home/macs/Desktop/Projects/C++/tqEngine/build/CMakeFiles/rebuild_cache.dir
 /home/macs/Desktop/Projects/C++/tqEngine/build/CMakeFiles/edit_cache.dir
+/home/macs/Desktop/Projects/C++/tqEngine/build/CMakeFiles/StbImage.dir
 /home/macs/Desktop/Projects/C++/tqEngine/build/CMakeFiles/TenQuartersEngine.dir
 /home/macs/Desktop/Projects/C++/tqEngine/build/lib/glfw/CMakeFiles/install/strip.dir
 /home/macs/Desktop/Projects/C++/tqEngine/build/lib/glfw/CMakeFiles/install/local.dir

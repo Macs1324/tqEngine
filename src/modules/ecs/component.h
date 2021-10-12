@@ -1,7 +1,7 @@
 #pragma once
 
-#include "entity.h"
-
+// #include "entity.h"
+class Entity;
 
 //The component interface
 //Every component MUST inherit from this

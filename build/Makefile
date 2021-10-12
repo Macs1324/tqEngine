@@ -162,6 +162,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named StbImage
+
+# Build rule for target.
+StbImage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StbImage
+.PHONY : StbImage
+
+# fast build rule for target.
+StbImage/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StbImage.dir/build.make CMakeFiles/StbImage.dir/build
+.PHONY : StbImage/fast
+
+#=============================================================================
 # Target rules for targets named TenQuartersEngine
 
 # Build rule for target.
@@ -278,6 +291,30 @@ glew/fast:
 	$(MAKE) $(MAKESILENT) -f lib/glew/build/cmake/CMakeFiles/glew.dir/build.make lib/glew/build/cmake/CMakeFiles/glew.dir/build
 .PHONY : glew/fast
 
+lib/stb/include/stb_image.o: lib/stb/include/stb_image.cpp.o
+.PHONY : lib/stb/include/stb_image.o
+
+# target to build an object file
+lib/stb/include/stb_image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StbImage.dir/build.make CMakeFiles/StbImage.dir/lib/stb/include/stb_image.cpp.o
+.PHONY : lib/stb/include/stb_image.cpp.o
+
+lib/stb/include/stb_image.i: lib/stb/include/stb_image.cpp.i
+.PHONY : lib/stb/include/stb_image.i
+
+# target to preprocess a source file
+lib/stb/include/stb_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StbImage.dir/build.make CMakeFiles/StbImage.dir/lib/stb/include/stb_image.cpp.i
+.PHONY : lib/stb/include/stb_image.cpp.i
+
+lib/stb/include/stb_image.s: lib/stb/include/stb_image.cpp.s
+.PHONY : lib/stb/include/stb_image.s
+
+# target to generate assembly for a file
+lib/stb/include/stb_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/StbImage.dir/build.make CMakeFiles/StbImage.dir/lib/stb/include/stb_image.cpp.s
+.PHONY : lib/stb/include/stb_image.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -302,6 +339,102 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TenQuartersEngine.dir/build.make CMakeFiles/TenQuartersEngine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/modules/ecs/ecsWorld.o: src/modules/ecs/ecsWorld.cpp.o
+.PHONY : src/modules/ecs/ecsWorld.o
+
+# target to build an object file
+src/modules/ecs/ecsWorld.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TenQuartersEngine.dir/build.make CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.o
+.PHONY : src/modules/ecs/ecsWorld.cpp.o
+
+src/modules/ecs/ecsWorld.i: src/modules/ecs/ecsWorld.cpp.i
+.PHONY : src/modules/ecs/ecsWorld.i
+
+# target to preprocess a source file
+src/modules/ecs/ecsWorld.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TenQuartersEngine.dir/build.make CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.i
+.PHONY : src/modules/ecs/ecsWorld.cpp.i
+
+src/modules/ecs/ecsWorld.s: src/modules/ecs/ecsWorld.cpp.s
+.PHONY : src/modules/ecs/ecsWorld.s
+
+# target to generate assembly for a file
+src/modules/ecs/ecsWorld.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TenQuartersEngine.dir/build.make CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.s
+.PHONY : src/modules/ecs/ecsWorld.cpp.s
+
+src/modules/tqnode/node.o: src/modules/tqnode/node.cpp.o
+.PHONY : src/modules/tqnode/node.o
+
+# target to build an object file
+src/modules/tqnode/node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TenQuartersEngine.dir/build.make CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.o
+.PHONY : src/modules/tqnode/node.cpp.o
+
+src/modules/tqnode/node.i: src/modules/tqnode/node.cpp.i
+.PHONY : src/modules/tqnode/node.i
+
+# target to preprocess a source file
+src/modules/tqnode/node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TenQuartersEngine.dir/build.make CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.i
+.PHONY : src/modules/tqnode/node.cpp.i
+
+src/modules/tqnode/node.s: src/modules/tqnode/node.cpp.s
+.PHONY : src/modules/tqnode/node.s
+
+# target to generate assembly for a file
+src/modules/tqnode/node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TenQuartersEngine.dir/build.make CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.s
+.PHONY : src/modules/tqnode/node.cpp.s
+
+src/modules/tqnode/nodes/node3d/sprite3d.o: src/modules/tqnode/nodes/node3d/sprite3d.cpp.o
+.PHONY : src/modules/tqnode/nodes/node3d/sprite3d.o
+
+# target to build an object file
+src/modules/tqnode/nodes/node3d/sprite3d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TenQuartersEngine.dir/build.make CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.o
+.PHONY : src/modules/tqnode/nodes/node3d/sprite3d.cpp.o
+
+src/modules/tqnode/nodes/node3d/sprite3d.i: src/modules/tqnode/nodes/node3d/sprite3d.cpp.i
+.PHONY : src/modules/tqnode/nodes/node3d/sprite3d.i
+
+# target to preprocess a source file
+src/modules/tqnode/nodes/node3d/sprite3d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TenQuartersEngine.dir/build.make CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.i
+.PHONY : src/modules/tqnode/nodes/node3d/sprite3d.cpp.i
+
+src/modules/tqnode/nodes/node3d/sprite3d.s: src/modules/tqnode/nodes/node3d/sprite3d.cpp.s
+.PHONY : src/modules/tqnode/nodes/node3d/sprite3d.s
+
+# target to generate assembly for a file
+src/modules/tqnode/nodes/node3d/sprite3d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TenQuartersEngine.dir/build.make CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.s
+.PHONY : src/modules/tqnode/nodes/node3d/sprite3d.cpp.s
+
+src/modules/util/generationalArray.o: src/modules/util/generationalArray.cpp.o
+.PHONY : src/modules/util/generationalArray.o
+
+# target to build an object file
+src/modules/util/generationalArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TenQuartersEngine.dir/build.make CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.o
+.PHONY : src/modules/util/generationalArray.cpp.o
+
+src/modules/util/generationalArray.i: src/modules/util/generationalArray.cpp.i
+.PHONY : src/modules/util/generationalArray.i
+
+# target to preprocess a source file
+src/modules/util/generationalArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TenQuartersEngine.dir/build.make CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.i
+.PHONY : src/modules/util/generationalArray.cpp.i
+
+src/modules/util/generationalArray.s: src/modules/util/generationalArray.cpp.s
+.PHONY : src/modules/util/generationalArray.s
+
+# target to generate assembly for a file
+src/modules/util/generationalArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TenQuartersEngine.dir/build.make CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.s
+.PHONY : src/modules/util/generationalArray.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -317,15 +450,31 @@ help:
 	@echo "... docs"
 	@echo "... uninstall"
 	@echo "... update_mappings"
+	@echo "... StbImage"
 	@echo "... TenQuartersEngine"
 	@echo "... glew"
 	@echo "... glew_s"
 	@echo "... glewinfo"
 	@echo "... glfw"
 	@echo "... visualinfo"
+	@echo "... lib/stb/include/stb_image.o"
+	@echo "... lib/stb/include/stb_image.i"
+	@echo "... lib/stb/include/stb_image.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/modules/ecs/ecsWorld.o"
+	@echo "... src/modules/ecs/ecsWorld.i"
+	@echo "... src/modules/ecs/ecsWorld.s"
+	@echo "... src/modules/tqnode/node.o"
+	@echo "... src/modules/tqnode/node.i"
+	@echo "... src/modules/tqnode/node.s"
+	@echo "... src/modules/tqnode/nodes/node3d/sprite3d.o"
+	@echo "... src/modules/tqnode/nodes/node3d/sprite3d.i"
+	@echo "... src/modules/tqnode/nodes/node3d/sprite3d.s"
+	@echo "... src/modules/util/generationalArray.o"
+	@echo "... src/modules/util/generationalArray.i"
+	@echo "... src/modules/util/generationalArray.s"
 .PHONY : help
 
 

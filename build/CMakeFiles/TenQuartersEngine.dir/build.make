@@ -83,23 +83,88 @@ CMakeFiles/TenQuartersEngine.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TenQuartersEngine.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/macs/Desktop/Projects/C++/tqEngine/src/main.cpp -o CMakeFiles/TenQuartersEngine.dir/src/main.cpp.s
 
+CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.o: CMakeFiles/TenQuartersEngine.dir/flags.make
+CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.o: ../src/modules/ecs/ecsWorld.cpp
+CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.o: CMakeFiles/TenQuartersEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/macs/Desktop/Projects/C++/tqEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.o -MF CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.o.d -o CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.o -c /home/macs/Desktop/Projects/C++/tqEngine/src/modules/ecs/ecsWorld.cpp
+
+CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/macs/Desktop/Projects/C++/tqEngine/src/modules/ecs/ecsWorld.cpp > CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.i
+
+CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/macs/Desktop/Projects/C++/tqEngine/src/modules/ecs/ecsWorld.cpp -o CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.s
+
+CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.o: CMakeFiles/TenQuartersEngine.dir/flags.make
+CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.o: ../src/modules/tqnode/node.cpp
+CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.o: CMakeFiles/TenQuartersEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/macs/Desktop/Projects/C++/tqEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.o -MF CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.o.d -o CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.o -c /home/macs/Desktop/Projects/C++/tqEngine/src/modules/tqnode/node.cpp
+
+CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/macs/Desktop/Projects/C++/tqEngine/src/modules/tqnode/node.cpp > CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.i
+
+CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/macs/Desktop/Projects/C++/tqEngine/src/modules/tqnode/node.cpp -o CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.s
+
+CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.o: CMakeFiles/TenQuartersEngine.dir/flags.make
+CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.o: ../src/modules/tqnode/nodes/node3d/sprite3d.cpp
+CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.o: CMakeFiles/TenQuartersEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/macs/Desktop/Projects/C++/tqEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.o -MF CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.o.d -o CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.o -c /home/macs/Desktop/Projects/C++/tqEngine/src/modules/tqnode/nodes/node3d/sprite3d.cpp
+
+CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/macs/Desktop/Projects/C++/tqEngine/src/modules/tqnode/nodes/node3d/sprite3d.cpp > CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.i
+
+CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/macs/Desktop/Projects/C++/tqEngine/src/modules/tqnode/nodes/node3d/sprite3d.cpp -o CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.s
+
+CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.o: CMakeFiles/TenQuartersEngine.dir/flags.make
+CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.o: ../src/modules/util/generationalArray.cpp
+CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.o: CMakeFiles/TenQuartersEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/macs/Desktop/Projects/C++/tqEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.o -MF CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.o.d -o CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.o -c /home/macs/Desktop/Projects/C++/tqEngine/src/modules/util/generationalArray.cpp
+
+CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/macs/Desktop/Projects/C++/tqEngine/src/modules/util/generationalArray.cpp > CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.i
+
+CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/macs/Desktop/Projects/C++/tqEngine/src/modules/util/generationalArray.cpp -o CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.s
+
 # Object files for target TenQuartersEngine
 TenQuartersEngine_OBJECTS = \
-"CMakeFiles/TenQuartersEngine.dir/src/main.cpp.o"
+"CMakeFiles/TenQuartersEngine.dir/src/main.cpp.o" \
+"CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.o" \
+"CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.o" \
+"CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.o" \
+"CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.o"
 
 # External object files for target TenQuartersEngine
 TenQuartersEngine_EXTERNAL_OBJECTS =
 
 TenQuartersEngine: CMakeFiles/TenQuartersEngine.dir/src/main.cpp.o
+TenQuartersEngine: CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.o
+TenQuartersEngine: CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.o
+TenQuartersEngine: CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.o
+TenQuartersEngine: CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.o
 TenQuartersEngine: CMakeFiles/TenQuartersEngine.dir/build.make
+TenQuartersEngine: libStbImage.a
+TenQuartersEngine: lib/libGLEWd.a
 TenQuartersEngine: lib/glfw/src/libglfw3.a
-TenQuartersEngine: lib/libGLEWd.so.2.1.0
-TenQuartersEngine: /usr/lib/librt.so
-TenQuartersEngine: /usr/lib/libm.so
 TenQuartersEngine: /usr/lib/libGL.so
 TenQuartersEngine: /usr/lib/libGLU.so
+TenQuartersEngine: /usr/lib/librt.so
+TenQuartersEngine: /usr/lib/libm.so
 TenQuartersEngine: CMakeFiles/TenQuartersEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/macs/Desktop/Projects/C++/tqEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TenQuartersEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/macs/Desktop/Projects/C++/tqEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable TenQuartersEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TenQuartersEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

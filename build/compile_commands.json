@@ -1,8 +1,33 @@
 [
 {
   "directory": "/home/macs/Desktop/Projects/C++/tqEngine/build",
-  "command": "/usr/bin/c++  -I/home/macs/Desktop/Projects/C++/tqEngine/src/modules -I/home/macs/Desktop/Projects/C++/tqEngine/lib/stb -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glm/glm -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glfw/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glm -g -o CMakeFiles/TenQuartersEngine.dir/src/main.cpp.o -c /home/macs/Desktop/Projects/C++/tqEngine/src/main.cpp",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/StbImage.dir/lib/stb/include/stb_image.cpp.o -c /home/macs/Desktop/Projects/C++/tqEngine/lib/stb/include/stb_image.cpp",
+  "file": "/home/macs/Desktop/Projects/C++/tqEngine/lib/stb/include/stb_image.cpp"
+},
+{
+  "directory": "/home/macs/Desktop/Projects/C++/tqEngine/build",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/macs/Desktop/Projects/C++/tqEngine/lib/stb/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glfw/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glm/glm -I/home/macs/Desktop/Projects/C++/tqEngine/src/modules -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glm -g -o CMakeFiles/TenQuartersEngine.dir/src/main.cpp.o -c /home/macs/Desktop/Projects/C++/tqEngine/src/main.cpp",
   "file": "/home/macs/Desktop/Projects/C++/tqEngine/src/main.cpp"
+},
+{
+  "directory": "/home/macs/Desktop/Projects/C++/tqEngine/build",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/macs/Desktop/Projects/C++/tqEngine/lib/stb/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glfw/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glm/glm -I/home/macs/Desktop/Projects/C++/tqEngine/src/modules -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glm -g -o CMakeFiles/TenQuartersEngine.dir/src/modules/ecs/ecsWorld.cpp.o -c /home/macs/Desktop/Projects/C++/tqEngine/src/modules/ecs/ecsWorld.cpp",
+  "file": "/home/macs/Desktop/Projects/C++/tqEngine/src/modules/ecs/ecsWorld.cpp"
+},
+{
+  "directory": "/home/macs/Desktop/Projects/C++/tqEngine/build",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/macs/Desktop/Projects/C++/tqEngine/lib/stb/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glfw/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glm/glm -I/home/macs/Desktop/Projects/C++/tqEngine/src/modules -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glm -g -o CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/node.cpp.o -c /home/macs/Desktop/Projects/C++/tqEngine/src/modules/tqnode/node.cpp",
+  "file": "/home/macs/Desktop/Projects/C++/tqEngine/src/modules/tqnode/node.cpp"
+},
+{
+  "directory": "/home/macs/Desktop/Projects/C++/tqEngine/build",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/macs/Desktop/Projects/C++/tqEngine/lib/stb/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glfw/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glm/glm -I/home/macs/Desktop/Projects/C++/tqEngine/src/modules -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glm -g -o CMakeFiles/TenQuartersEngine.dir/src/modules/tqnode/nodes/node3d/sprite3d.cpp.o -c /home/macs/Desktop/Projects/C++/tqEngine/src/modules/tqnode/nodes/node3d/sprite3d.cpp",
+  "file": "/home/macs/Desktop/Projects/C++/tqEngine/src/modules/tqnode/nodes/node3d/sprite3d.cpp"
+},
+{
+  "directory": "/home/macs/Desktop/Projects/C++/tqEngine/build",
+  "command": "/usr/bin/c++ -DGLEW_STATIC -I/home/macs/Desktop/Projects/C++/tqEngine/lib/stb/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glfw/include -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glm/glm -I/home/macs/Desktop/Projects/C++/tqEngine/src/modules -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glm -g -o CMakeFiles/TenQuartersEngine.dir/src/modules/util/generationalArray.cpp.o -c /home/macs/Desktop/Projects/C++/tqEngine/src/modules/util/generationalArray.cpp",
+  "file": "/home/macs/Desktop/Projects/C++/tqEngine/src/modules/util/generationalArray.cpp"
 },
 {
   "directory": "/home/macs/Desktop/Projects/C++/tqEngine/build/lib/glfw/src",
@@ -86,6 +111,11 @@
 },
 {
   "directory": "/home/macs/Desktop/Projects/C++/tqEngine/build/lib/glew/build/cmake",
+  "command": "/usr/bin/x86_64-pc-linux-gnu-gcc-11.1.0 -DGLEW_NO_GLU -DGLEW_STATIC -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/build/cmake/../../include -g -o CMakeFiles/glew_s.dir/__/__/src/glew.c.o -c /home/macs/Desktop/Projects/C++/tqEngine/lib/glew/src/glew.c",
+  "file": "/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/src/glew.c"
+},
+{
+  "directory": "/home/macs/Desktop/Projects/C++/tqEngine/build/lib/glew/build/cmake",
   "command": "/usr/bin/x86_64-pc-linux-gnu-gcc-11.1.0 -DGLEW_BUILD -DGLEW_NO_GLU -Dglew_EXPORTS -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/build/cmake/../../include -g -fPIC -o CMakeFiles/glew.dir/__/__/src/glew.c.o -c /home/macs/Desktop/Projects/C++/tqEngine/lib/glew/src/glew.c",
   "file": "/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/src/glew.c"
 },
@@ -98,10 +128,5 @@
   "directory": "/home/macs/Desktop/Projects/C++/tqEngine/build/lib/glew/build/cmake",
   "command": "/usr/bin/x86_64-pc-linux-gnu-gcc-11.1.0 -DGLEW_NO_GLU -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/build/cmake/../../include -g -o CMakeFiles/glewinfo.dir/__/__/src/glewinfo.c.o -c /home/macs/Desktop/Projects/C++/tqEngine/lib/glew/src/glewinfo.c",
   "file": "/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/src/glewinfo.c"
-},
-{
-  "directory": "/home/macs/Desktop/Projects/C++/tqEngine/build/lib/glew/build/cmake",
-  "command": "/usr/bin/x86_64-pc-linux-gnu-gcc-11.1.0 -DGLEW_NO_GLU -DGLEW_STATIC -I/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/build/cmake/../../include -g -o CMakeFiles/glew_s.dir/__/__/src/glew.c.o -c /home/macs/Desktop/Projects/C++/tqEngine/lib/glew/src/glew.c",
-  "file": "/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/src/glew.c"
 }
 ]

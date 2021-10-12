@@ -131,10 +131,25 @@ CMakeFiles/TenQuartersEngine.dir/src/main.cpp.o: \
  /home/macs/Desktop/Projects/C++/tqEngine/lib/glew/include/GL/glew.h \
  /usr/include/GL/glu.h /usr/include/GL/gl.h \
  /home/macs/Desktop/Projects/C++/tqEngine/lib/glfw/include/GLFW/glfw3.h \
- /home/macs/Desktop/Projects/C++/tqEngine/src/modules/tqnode/node.h \
+ /home/macs/Desktop/Projects/C++/tqEngine/src/modules/ecs/ecsWorld.h \
+ /usr/include/c++/11.1.0/map /usr/include/c++/11.1.0/bits/stl_tree.h \
+ /usr/include/c++/11.1.0/ext/aligned_buffer.h \
+ /usr/include/c++/11.1.0/bits/node_handle.h \
+ /usr/include/c++/11.1.0/bits/stl_map.h /usr/include/c++/11.1.0/tuple \
+ /usr/include/c++/11.1.0/utility \
+ /usr/include/c++/11.1.0/bits/stl_relops.h /usr/include/c++/11.1.0/array \
+ /usr/include/c++/11.1.0/bits/uses_allocator.h \
+ /usr/include/c++/11.1.0/bits/invoke.h \
+ /usr/include/c++/11.1.0/bits/stl_multimap.h \
+ /usr/include/c++/11.1.0/bits/erase_if.h /usr/include/c++/11.1.0/any \
  /usr/include/c++/11.1.0/vector \
  /usr/include/c++/11.1.0/bits/stl_uninitialized.h \
  /usr/include/c++/11.1.0/bits/stl_vector.h \
  /usr/include/c++/11.1.0/bits/stl_bvector.h \
  /usr/include/c++/11.1.0/bits/vector.tcc \
+ /home/macs/Desktop/Projects/C++/tqEngine/src/modules/ecs/entity.h \
+ /home/macs/Desktop/Projects/C++/tqEngine/src/modules/ecs/../util/generationalArray.h \
+ /home/macs/Desktop/Projects/C++/tqEngine/src/modules/ecs/component.h \
+ /home/macs/Desktop/Projects/C++/tqEngine/src/modules/ecs/system.h \
+ /home/macs/Desktop/Projects/C++/tqEngine/src/modules/tqnode/node.h \
  /home/macs/Desktop/Projects/C++/tqEngine/src/modules/tqnode/nodeBehaviour.h

@@ -3,7 +3,11 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
+#include <ecs/ecsWorld.h>
+
 #include <tqnode/node.h>
+
+#include <util/generationalArray.h>
 
 int main()
 {
@@ -20,6 +24,11 @@ int main()
     {
         std::cout << "Glew pissed the bed" << std::endl;
     }
+
+    GenerationalArray<int> arr;
+    GenerationalIndex i = arr.push(2);
+
+    std::cout << arr[i] << std::endl;
 
     while(!glfwWindowShouldClose(window))
     {

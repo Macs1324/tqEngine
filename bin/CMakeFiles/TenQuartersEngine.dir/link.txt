@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/TenQuartersEngine.dir/src/main.cpp.o -o TenQuartersEngine   -L/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/lib  -Wl,-rpath,/home/macs/Desktop/Projects/C++/tqEngine/lib/glew/lib lib/glfw/src/libglfw3.a -lpthread -lrt -lm -ldl 
