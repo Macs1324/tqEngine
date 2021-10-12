@@ -1,0 +1,1 @@
+/usr/bin/x86_64-pc-linux-gnu-gcc-11.1.0 -fPIC -g -shared -Wl,-soname,libGLEWd.so.2.1 -o ../../../libGLEWd.so.2.1.0 CMakeFiles/glew.dir/__/__/src/glew.c.o  -lGL -lGLU 
