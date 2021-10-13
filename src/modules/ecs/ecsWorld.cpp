@@ -29,6 +29,8 @@ Entity World::entity()
         r.index = size;
         r.generation = 0;
     }
+
+    return r;
 }
 
 template <class T>

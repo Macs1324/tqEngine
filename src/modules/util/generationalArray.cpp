@@ -6,7 +6,7 @@ GenerationalIndex GenerationalArray<T>::push(T value)
     GenerationalIndex r;
     r.index = -1;
     r.generation = -1;
-    unsigned int size = data.size();
+    size_t int size = data.size();
     for(int i = 0; i < size; i++)
     {
         //If a dead (freed) entry was found overwrite it with

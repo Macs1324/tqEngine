@@ -40,3 +40,5 @@ class GenerationalArray
 
         T& operator[](GenerationalIndex index);
 };
+
+// #include "generationalArray.cpp"

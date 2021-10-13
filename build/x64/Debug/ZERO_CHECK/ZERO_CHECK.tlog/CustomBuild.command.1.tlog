@@ -1,0 +1,10 @@
+^C:\USERS\UZZOL\DESKTOP\PROJECTS\C++\TQENGINE\BUILD\CMAKEFILES\DA26376C566DCB5E8EDE08F211A85B1A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/uzzol/Desktop/Projects/C++/tqEngine -BC:/Users/uzzol/Desktop/Projects/C++/tqEngine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/uzzol/Desktop/Projects/C++/tqEngine/build/TenQuartersEngine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,1164 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "lib/glfw",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw-Debug-1c937e440606ae58f876.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/glfw",
+					"targetIndexes" : 
+					[
+						1,
+						11
+					]
+				},
+				{
+					"build" : "lib/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw.src-Debug-cd9d55dc8237a2c27efe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/glfw/src",
+					"targetIndexes" : 
+					[
+						10,
+						12
+					]
+				},
+				{
+					"build" : "lib/glew/build/cmake",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glew.build.cmake-Debug-8caf44a8d350a5c52fff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/glew/build/cmake",
+					"targetIndexes" : 
+					[
+						2,
+						7,
+						8,
+						9,
+						13
+					]
+				},
+				{
+					"build" : "lib/glm",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-lib.glm-Debug-ce07c1f5db497389ae15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lib/glm",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "lib/glm/glm",
+					"jsonFile" : "directory-lib.glm.glm-Debug-7e44bcf2243f8c247ecb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "lib/glm/glm"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TenQuartersEngine",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						7,
+						8,
+						9,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-58b2e3b80d0bb4706207.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a7a2f639778f88e1b46d",
+					"jsonFile" : "target-ALL_BUILD-Debug-12194e0ac29065c86711.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@b46fb324963b76809ed6",
+					"jsonFile" : "target-ALL_BUILD-Debug-d0cdbf567a0107234b4a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@92af4840bef7d1392915",
+					"jsonFile" : "target-ALL_BUILD-Debug-01fd262e8dfbaca106cc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StbImage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StbImage-Debug-f33e84a4ec119831c569.json",
+					"name" : "StbImage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TenQuartersEngine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TenQuartersEngine-Debug-118a5c3f271ad5372e4f.json",
+					"name" : "TenQuartersEngine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-b5c972fda818082003a3.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glew::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew-Debug-d83374a3d629f19ddbbf.json",
+					"name" : "glew",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glew_s::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew_s-Debug-738148fbfd753cc405ac.json",
+					"name" : "glew_s",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glewinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glewinfo-Debug-6497d7ef8bcb018f4381.json",
+					"name" : "glewinfo",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@17f284a5fc0809a54549",
+					"jsonFile" : "target-glfw-Debug-2d5ee243ea53bcd069d6.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@a7a2f639778f88e1b46d",
+					"jsonFile" : "target-uninstall-Debug-22e34f9a0d9196a971d2.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_mappings::@17f284a5fc0809a54549",
+					"jsonFile" : "target-update_mappings-Debug-5c43ec59d8376a97faaa.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "visualinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-visualinfo-Debug-a9e7be0d7672d60571b2.json",
+					"name" : "visualinfo",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "lib/glfw",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw-Release-1c937e440606ae58f876.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/glfw",
+					"targetIndexes" : 
+					[
+						1,
+						11
+					]
+				},
+				{
+					"build" : "lib/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw.src-Release-1468977a847ba1faceda.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/glfw/src",
+					"targetIndexes" : 
+					[
+						10,
+						12
+					]
+				},
+				{
+					"build" : "lib/glew/build/cmake",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glew.build.cmake-Release-2f08adc68fa56f9a99ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/glew/build/cmake",
+					"targetIndexes" : 
+					[
+						2,
+						7,
+						8,
+						9,
+						13
+					]
+				},
+				{
+					"build" : "lib/glm",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-lib.glm-Release-ce07c1f5db497389ae15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lib/glm",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "lib/glm/glm",
+					"jsonFile" : "directory-lib.glm.glm-Release-7e44bcf2243f8c247ecb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "lib/glm/glm"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TenQuartersEngine",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						7,
+						8,
+						9,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-58b2e3b80d0bb4706207.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a7a2f639778f88e1b46d",
+					"jsonFile" : "target-ALL_BUILD-Release-12194e0ac29065c86711.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@b46fb324963b76809ed6",
+					"jsonFile" : "target-ALL_BUILD-Release-d0cdbf567a0107234b4a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@92af4840bef7d1392915",
+					"jsonFile" : "target-ALL_BUILD-Release-01fd262e8dfbaca106cc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StbImage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StbImage-Release-beb4fadd442bc3fbc035.json",
+					"name" : "StbImage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TenQuartersEngine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TenQuartersEngine-Release-35f827c1d516bd816c69.json",
+					"name" : "TenQuartersEngine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-b5c972fda818082003a3.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glew::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew-Release-9af6474dda13dfc27a3c.json",
+					"name" : "glew",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glew_s::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew_s-Release-951c618d15f7d53c612e.json",
+					"name" : "glew_s",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glewinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glewinfo-Release-b47db927dfa344cd996a.json",
+					"name" : "glewinfo",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@17f284a5fc0809a54549",
+					"jsonFile" : "target-glfw-Release-69c3f2090334dc17cf3c.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@a7a2f639778f88e1b46d",
+					"jsonFile" : "target-uninstall-Release-22e34f9a0d9196a971d2.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_mappings::@17f284a5fc0809a54549",
+					"jsonFile" : "target-update_mappings-Release-5c43ec59d8376a97faaa.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "visualinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-visualinfo-Release-b5b4677007a4266b709f.json",
+					"name" : "visualinfo",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "lib/glfw",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw-MinSizeRel-1c937e440606ae58f876.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/glfw",
+					"targetIndexes" : 
+					[
+						1,
+						11
+					]
+				},
+				{
+					"build" : "lib/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw.src-MinSizeRel-94af89a2183783d6fd72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/glfw/src",
+					"targetIndexes" : 
+					[
+						10,
+						12
+					]
+				},
+				{
+					"build" : "lib/glew/build/cmake",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glew.build.cmake-MinSizeRel-466d2bd7595ac7039e11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/glew/build/cmake",
+					"targetIndexes" : 
+					[
+						2,
+						7,
+						8,
+						9,
+						13
+					]
+				},
+				{
+					"build" : "lib/glm",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-lib.glm-MinSizeRel-ce07c1f5db497389ae15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lib/glm",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "lib/glm/glm",
+					"jsonFile" : "directory-lib.glm.glm-MinSizeRel-7e44bcf2243f8c247ecb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "lib/glm/glm"
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TenQuartersEngine",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						7,
+						8,
+						9,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-58b2e3b80d0bb4706207.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a7a2f639778f88e1b46d",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-12194e0ac29065c86711.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@b46fb324963b76809ed6",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d0cdbf567a0107234b4a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@92af4840bef7d1392915",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-01fd262e8dfbaca106cc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StbImage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StbImage-MinSizeRel-682607d32f0f1e5a96d8.json",
+					"name" : "StbImage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TenQuartersEngine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TenQuartersEngine-MinSizeRel-7934a3e5b42a348fe2d2.json",
+					"name" : "TenQuartersEngine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-b5c972fda818082003a3.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glew::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew-MinSizeRel-61e8fc76d9e176ceb089.json",
+					"name" : "glew",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glew_s::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew_s-MinSizeRel-077e04e259bf6ab033a4.json",
+					"name" : "glew_s",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glewinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glewinfo-MinSizeRel-87a7660aa974fb7b9667.json",
+					"name" : "glewinfo",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@17f284a5fc0809a54549",
+					"jsonFile" : "target-glfw-MinSizeRel-9b7fe9acb670f4af7c75.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@a7a2f639778f88e1b46d",
+					"jsonFile" : "target-uninstall-MinSizeRel-22e34f9a0d9196a971d2.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_mappings::@17f284a5fc0809a54549",
+					"jsonFile" : "target-update_mappings-MinSizeRel-5c43ec59d8376a97faaa.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "visualinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-visualinfo-MinSizeRel-b965f1a61204efb10263.json",
+					"name" : "visualinfo",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"build" : "lib/glfw",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw-RelWithDebInfo-1c937e440606ae58f876.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lib/glfw",
+					"targetIndexes" : 
+					[
+						1,
+						11
+					]
+				},
+				{
+					"build" : "lib/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glfw.src-RelWithDebInfo-362868afb4717c1f9039.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "lib/glfw/src",
+					"targetIndexes" : 
+					[
+						10,
+						12
+					]
+				},
+				{
+					"build" : "lib/glew/build/cmake",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.glew.build.cmake-RelWithDebInfo-b77a4bf38af9d156fe99.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/glew/build/cmake",
+					"targetIndexes" : 
+					[
+						2,
+						7,
+						8,
+						9,
+						13
+					]
+				},
+				{
+					"build" : "lib/glm",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-lib.glm-RelWithDebInfo-ce07c1f5db497389ae15.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "lib/glm",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "lib/glm/glm",
+					"jsonFile" : "directory-lib.glm.glm-RelWithDebInfo-7e44bcf2243f8c247ecb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "lib/glm/glm"
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TenQuartersEngine",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						10,
+						11,
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "glew",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						7,
+						8,
+						9,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-58b2e3b80d0bb4706207.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a7a2f639778f88e1b46d",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-12194e0ac29065c86711.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ALL_BUILD::@b46fb324963b76809ed6",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d0cdbf567a0107234b4a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ALL_BUILD::@92af4840bef7d1392915",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-01fd262e8dfbaca106cc.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "StbImage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StbImage-RelWithDebInfo-a9f14a73a56057d2090b.json",
+					"name" : "StbImage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TenQuartersEngine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TenQuartersEngine-RelWithDebInfo-968222bb355c66fcbaac.json",
+					"name" : "TenQuartersEngine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-b5c972fda818082003a3.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glew::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew-RelWithDebInfo-c8a61135efc3398cd9a8.json",
+					"name" : "glew",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glew_s::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glew_s-RelWithDebInfo-70b422f0449600f0865a.json",
+					"name" : "glew_s",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "glewinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-glewinfo-RelWithDebInfo-4781e38889588f80b32c.json",
+					"name" : "glewinfo",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@17f284a5fc0809a54549",
+					"jsonFile" : "target-glfw-RelWithDebInfo-159470917a0e92312610.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@a7a2f639778f88e1b46d",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-22e34f9a0d9196a971d2.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_mappings::@17f284a5fc0809a54549",
+					"jsonFile" : "target-update_mappings-RelWithDebInfo-5c43ec59d8376a97faaa.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "visualinfo::@b46fb324963b76809ed6",
+					"jsonFile" : "target-visualinfo-RelWithDebInfo-b731c23372ef6e874530.json",
+					"name" : "visualinfo",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/uzzol/Desktop/Projects/C++/tqEngine/build",
+		"source" : "C:/Users/uzzol/Desktop/Projects/C++/tqEngine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

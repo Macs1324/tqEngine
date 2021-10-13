@@ -1,0 +1,10 @@
+^C:\USERS\UZZOL\DESKTOP\PROJECTS\C++\TQENGINE\LIB\GLEW\BUILD\CMAKE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/uzzol/Desktop/Projects/C++/tqEngine -BC:/Users/uzzol/Desktop/Projects/C++/tqEngine/build --check-stamp-file C:/Users/uzzol/Desktop/Projects/C++/tqEngine/build/lib/glew/build/cmake/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

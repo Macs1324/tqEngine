@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\uzzol\Desktop\Projects\C++\tqEngine\build\CMakeFiles\da26376c566dcb5e8ede08f211a85b1a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{13D121F8-B02B-3113-9BCE-0A87F35BBC00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

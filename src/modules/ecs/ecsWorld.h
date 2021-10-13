@@ -1,8 +1,8 @@
 #pragma once
 
 #include <map>
-#include <any>
 #include <vector>
+#include <typeinfo>
 #include "entity.h"
 #include "component.h"
 #include "system.h"
@@ -39,7 +39,7 @@ class World
         */
         std::vector<EntityData> entities;
         std::map<std::type_info, Component> components;
-        std::vector<System<std::any>> systems;
+        std::vector<System<Component>> systems;
 
         template <class T>
         void addComponent(Entity entity);
