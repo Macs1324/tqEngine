@@ -1,6 +1,6 @@
 #pragma once
 
-// #include "entity.h"
+#include "entity.h"
 class Entity;
 
 //The component interface
@@ -8,7 +8,7 @@ class Entity;
 class Component
 {
     public:
-        Entity parent;
-        bool alive;
-        unsigned int generation;
+        Entity* parent;
+
+        virtual ~Component() {}
 };

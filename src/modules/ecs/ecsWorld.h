@@ -2,10 +2,12 @@
 
 #include <map>
 #include <vector>
-#include <typeinfo>
-#include "entity.h"
+#include <typeindex>
+#include "../util/generationalArray.h"
 #include "component.h"
 #include "system.h"
+
+class Entity;
 
 //A data oriented ECS-World
 class World
@@ -15,48 +17,70 @@ class World
         class EntityData
         {
             public:
-                //Should the entity be freed? Probably not
-                bool alive;
-                //The generation of the entity: if it doesn't correspond to
-                //the handle then something went wrong
-                unsigned int generation;
                 /*
-                    A vector of maps from component types to indices in the relative componentData sub-vector
-                    E.g
-                    BoxCollider: 0
-                    SpriteRenderer: 5
+                    A map that maps component types to (Generational)indices in the relative componentData sub-vector
+                    E.g              index  generation 
+                    BoxCollider:      0    |     2
+                    SpriteRenderer:   5    |     0
                     ...
                 */
-                std::vector<std::map<std::type_info, unsigned int>> indices;
+                std::map<std::type_index, GenerationalIndex> indices;
         };
         /*
-        This map will map a component typeID to a component
+        This map will map a component typeID to a Generational Array of components
             {
                 vector<BoxCollider> {....}
                 vector<Health> {......}
                 vector<SpriteRenderer> {....}
             }
         */
-        std::vector<EntityData> entities;
-        std::map<std::type_info, Component> components;
+        std::map<std::type_index, GenerationalArray<Component>> components;
+        GenerationalArray<EntityData> entities;
+
+        //A vector and not a generational array bc I don't plan on
+        //randomly adding / removing systems
         std::vector<System<Component>> systems;
 
+    public:
         template <class T>
-        void addComponent(Entity entity);
+        void addComponent(Entity* entity);
+        // {
+        //     T newComponent;
+        //     ((Component)(newComponent)).parent = entity;
+        //     components[typeid(T)].push(newComponent);
+        // }
 
         template <class T>
-        void getComponent(Entity entity);
+        T& getComponent(Entity entity);
+        // {
+        //     return components[typeid(T)][entity.index];
+        // }
 
         template <class T>
         void removeComponent(Entity entity);
-    public:
+        // {
+        //     components[typeid(T)].free(entity.index);
+        // }
         //Create an entity
         //A "Constructor" if you want
         Entity entity();
+        // {
+        //     Entity r;
+        //     EntityData entityData;
+        //     GenerationalIndex index = entities.push(entityData);
+        //     r.index = index;
+        //     r.world = this;
 
+        //     return r;
+        // }
         void init();
         void update();
 
         template <class T>
-        void addSystem(System<T> system);
+        void addSystem(System<T> system)
+        {
+            systems.push_back(system);
+        }
 };
+
+#include "ecsWorld.cpp"

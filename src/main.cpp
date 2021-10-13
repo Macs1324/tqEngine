@@ -4,10 +4,14 @@
 #include <GLFW/glfw3.h>
 
 #include <ecs/ecsWorld.h>
-
-#include <tqnode/node.h>
-
+#include <ecs/entity.h>
 #include <util/generationalArray.h>
+
+class Health : public Component
+{
+    public:
+        int health;
+};
 
 int main()
 {
@@ -25,15 +29,22 @@ int main()
         std::cout << "Glew pissed the bed" << std::endl;
     }
 
-    GenerationalArray<int> arr;
-    GenerationalIndex i = arr.push(2);
+    FUCK ECS, JUST RIP OFF UNITY'S SYSTEM INSTEAD LOL
 
-    std::cout << arr[i] << std::endl;
+    World world;
+    Entity player = world.entity();
+
+    world.addComponent<Health>(&player);
+    world.getComponent<Health>(player).health = 1;
 
     while(!glfwWindowShouldClose(window))
     {
         glClear(GL_COLOR_BUFFER_BIT);
         glClearColor(0.1, 0.1, 0.15, 1.0);
+
+        world.getComponent<Health>(player).health -= 1;
+        // std::cout << world.getComponent<Health>(player).health << std::endl;
+
 
         glfwSwapBuffers(window);
         glfwPollEvents();

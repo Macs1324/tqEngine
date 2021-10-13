@@ -1,40 +1,34 @@
 #include "ecsWorld.h"
 
 template <class T>
-void World::addComponent(Entity entity)
+void World::addComponent(Entity* entity)
 {
-    components[typeid(T)].alive = true;
-    components[typeid(T)].generation = 0;
+    T newComponent;
+    dynamic_cast<Component*>(&newComponent)->parent = entity;
+    GenerationalIndex i = components[typeid(T)].push(newComponent);
+    entities[entity->index].indices[typeid(T)] = i;
+}
+// FUCKING USE THE ENTITY DATA INDEX INSTEAD OF THE 
+// ENTITY HANDLE INDEX IDIOT
+template <class T>
+T& World::getComponent(Entity entity)
+{
+    return (T&)(components[typeid(T)][entities[entity.index].indices[typeid(T)]]);
+}
+
+
+template <class T>
+void World::removeComponent(Entity entity)
+{
+    components[typeid(T)].free(entity.index);
 }
 
 Entity World::entity()
 {
     Entity r;
-    r.index = -1;
-    r.generation = -1;
-    int size = entities.size();
-    for(int i = 0; i < size; i++)
-    {
-        if(!entities[i].alive)
-        {
-            r.index = i;
-            break;
-        }
-    }
-
-    //If the index has remained -1 itr means that
-    //a free memory spot could not be found
-    if(r.index == -1)
-    {
-        r.index = size;
-        r.generation = 0;
-    }
+    EntityData entityData;
+    GenerationalIndex index = entities.push(entityData);
+    r.index = index;
 
     return r;
-}
-
-template <class T>
-void World::addSystem(System<T> system)
-{
-    systems.push_back(system);
 }
