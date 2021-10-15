@@ -3,15 +3,27 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
-#include <ecs/ecsWorld.h>
-#include <ecs/entity.h>
 #include <util/generationalArray.h>
+#include <gameObject/gameObject.h>
+#include <gameObject/components/core/transform.h>
 
 class Health : public Component
 {
     public:
-        int health;
+        float health;
+
+        void start()
+        {
+            health = 100;
+        }
+
+        void update(float delta)
+        {
+            health -= 0.1f;
+            std::cout << "Health: " << health << std::endl;
+        }
 };
+
 
 int main()
 {
@@ -29,21 +41,20 @@ int main()
         std::cout << "Glew pissed the bed" << std::endl;
     }
 
-    FUCK ECS, JUST RIP OFF UNITY'S SYSTEM INSTEAD LOL
+    // FUCK ECS, JUST RIP OFF UNITY'S SYSTEM INSTEAD LOL
+    GameObject player;
+    player.addComponent<Transform>();
+    player.addComponent<Health>();
+    
 
-    World world;
-    Entity player = world.entity();
-
-    world.addComponent<Health>(&player);
-    world.getComponent<Health>(player).health = 1;
+    player.start();
 
     while(!glfwWindowShouldClose(window))
     {
         glClear(GL_COLOR_BUFFER_BIT);
-        glClearColor(0.1, 0.1, 0.15, 1.0);
+        glClearColor(0.1f, 0.1f, 0.15f, 1.0f);
 
-        world.getComponent<Health>(player).health -= 1;
-        // std::cout << world.getComponent<Health>(player).health << std::endl;
+        player.update(0.1f);
 
 
         glfwSwapBuffers(window);
